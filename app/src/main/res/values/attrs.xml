@@ -10,4 +10,13 @@
         <attr name="drawableTopLeftLeft" format="reference"/>
         <attr name="drawableTopLeftPadding" format="integer"/>
     </declare-styleable>
+
+    <declare-styleable name="RecordView">
+        <attr name="OutRoundColor" format="color"/>
+        <attr name="OutRoundWidth" format="integer"/>
+        <attr name="InnerRoundColor" format="color"/>
+        <attr name="RadiusWidth" format="integer"/>
+        <attr name="ProgressCircleWidth" format="integer"/>
+        <attr name="ProgressCircleColor" format="color"/>
+    </declare-styleable>
 </resources>

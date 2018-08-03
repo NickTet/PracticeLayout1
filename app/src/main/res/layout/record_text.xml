@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8f8f8"
+    tools:context="com.hencoder.hencoderpracticelayout1.MainActivity">
+    <com.hencoder.hencoderpracticelayout1.practice.RecordView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:InnerRoundColor="@color/white"
+        app:OutRoundColor="@color/grey"
+        app:ProgressCircleColor="@color/colorAccent"
+        app:ProgressCircleWidth="20"
+        app:OutRoundWidth="100"
+        app:RadiusWidth="100"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
