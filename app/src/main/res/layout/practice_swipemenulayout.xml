@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8f8f8"
+    tools:context="com.hencoder.hencoderpracticelayout1.MainActivity">
+
+    <com.hencoder.hencoderpracticelayout1.practice.SwipeMenuLayout
+        android:layout_width="match_parent"
+        app:swipeEnable="true"
+        app:leftSwipe="false"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:text="左边内容"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="删除"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"/>
+    </com.hencoder.hencoderpracticelayout1.practice.SwipeMenuLayout>
+</LinearLayout>
