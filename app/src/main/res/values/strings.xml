@@ -4,6 +4,7 @@
     <string name="drawabletopleftview">DrawableTopLeftView</string>
     <string name="swipemenulayout">swipemenulayout</string>
     <string name="recordview">recordview</string>
+    <string name="praise">praise</string>
     <string name="title_message_edit_text">MessageEditText</string>
     <string name="title_property_values_holder">PropertyValuesHolder</string>
     <string name="width">宽度</string>

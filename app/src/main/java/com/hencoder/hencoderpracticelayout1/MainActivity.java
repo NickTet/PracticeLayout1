@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         pageModels.add(new PageModel(R.layout.drawabletopleft_textview, R.string.drawabletopleftview, R.layout.drawabletopleft_textview));
         pageModels.add(new PageModel(R.layout.practice_swipemenulayout, R.string.swipemenulayout, R.layout.practice_swipemenulayout));
         pageModels.add(new PageModel(R.layout.record_text, R.string.recordview, R.layout.record_text));
+        pageModels.add(new PageModel(R.layout.yk_text, R.string.recordview, R.layout.yk_text));
+        pageModels.add(new PageModel(R.layout.praise, R.string.praise, R.layout.praise));
     }
 
     @Override
